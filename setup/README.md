@@ -92,13 +92,13 @@ pip install -r requirements.txt
   touch app/__init__.py tests/__init__.py
   ```
 
-> These files can be empty, but they’re required for Python to recognize the folders as importable modules.
+  > These files can be empty, but they’re required for Python to recognize the folders as importable modules.
 
 3. Inside the `app/static/` folder, create a new file called `newsletter_signup.html`.
 
-  ```bash
-  touch app/static/newsletter_signup.html
-  ```
+    ```bash
+    touch app/static/newsletter_signup.html
+    ```
 
   Paste the following code into it:
 
