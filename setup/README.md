@@ -80,13 +80,13 @@ pip install -r requirements.txt
 
 ## Create your starter files
 
-1. Create three new directories called `app/`, `static/`, and `tests/`.
+### 1. Create three new directories called `app/`, `static/`, and `tests/`.
 
   ```bash
   mkdir -p app/static tests
   ```
 
-2. Create special `__init__.py` files so that Python treats these folders as packages:
+### 2. Create special `__init__.py` files so that Python treats these folders as packages:
 
   ```bash
   touch app/__init__.py tests/__init__.py
@@ -94,7 +94,7 @@ pip install -r requirements.txt
 
   > These files can be empty, but they’re required for Python to recognize the folders as importable modules.
 
-3. Inside the `app/static/` folder, create a new file called `newsletter_signup.html`.
+### 3. Inside the `app/static/` folder, create a new file called `newsletter_signup.html`.
 
     ```bash
     touch app/static/newsletter_signup.html
@@ -223,7 +223,7 @@ pip install -r requirements.txt
   </html>
   ```
 
-4. Create a new file inside `app/` called `main.py`.
+### 4. Create a new file inside `app/` called `main.py`.
 
   Paste the following code into it:
 
